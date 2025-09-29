@@ -3,13 +3,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-.contenedor-padre{
-    display: flex;
-    margin-top: 80px;
-    justify-content: center;
-   
-}
-
 .titulo-principal{
     font-family: "Limelight", sans-serif;
     font-weight: 400;
@@ -19,17 +12,32 @@
 }
 
 .titulo-formulario{
-    margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 500px;
     font-weight: 800;
     font-size: 1.5rem;
 }
 
 .form-contenedor{
+    display: flex;
+    
+    margin: auto;
+    gap: 120px;
     width: 700px;
-    height: 450px;
+    height: 400px;
     font-size: 1.2rem;
     border: 4px dashed rgb(3, 3, 3);
+}
+
+
+#qrcode{
+    display: block;
+    margin-left: 40px;
+    width: 200px;
+}
+
+
+.formulario{
+    margin-top: 150px;
 }
 
 .input{
@@ -37,22 +45,18 @@
     font-size: 1rem;
     width: 300px;
 }
-.formulario{
-    margin-top: 60px;
-    margin-left: 350px;
-    
-}
 
 .mensaje{
-    margin-top: 50px;
-    margin-left: 40px;
+    display: block;
+    margin: 20 auto;
 }
 
 .print-btn{
-    margin-left: 40px;
+    display: block;
+    margin: 20px auto;
     background-color: rgb(128, 38, 193);
-    width: 100px;
-    height: 45px;
+    width: 110px;
+    height: 55px;
     border: 0px solid ;
     border-radius: 15px;
     color: white;
