@@ -41,4 +41,24 @@ document.addEventListener("DOMContentLoaded", function(){
 
     ssid.addEventListener('input', actualizarQR);
     password.addEventListener('input', actualizarQR);
+
+    //Actualizar año en el footer
+    const yearSpan = document.getElementById('año');
+    const currentYear = new Date().getFullYear();
+    yearSpan.textContent = currentYear;
+
+    console.log(currentYear);
+    
 })
+
+    function btnImprimir(){
+        window.print()
+    }
+
+    const imprimirBtn = document.getElementById('print-btn');
+    imprimirBtn.addEventListener('click', function(event){
+     btnImprimir();
+    })
+
+
+   

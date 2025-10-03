@@ -19,11 +19,10 @@
 
 .form-contenedor{
     display: flex;
-    
     margin: auto;
-    gap: 120px;
+    padding-bottom: 40px;
+    gap: 100px;
     width: 700px;
-    height: 400px;
     font-size: 1.2rem;
     border: 4px dashed rgb(3, 3, 3);
 }
@@ -31,13 +30,14 @@
 
 #qrcode{
     display: block;
+    flex-direction: column;
     margin-left: 40px;
     width: 200px;
 }
 
 
 .formulario{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .input{
@@ -47,13 +47,15 @@
 }
 
 .mensaje{
-    display: block;
-    margin: 20 auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    
 }
 
 .print-btn{
     display: block;
-    margin: 20px auto;
+    margin: 35px auto;
     background-color: rgb(128, 38, 193);
     width: 110px;
     height: 55px;
@@ -67,4 +69,15 @@
     background-color: rgb(193, 38, 87);
     color: white;
     
+}
+
+footer{
+    text-align: center;
+    margin-top: 250px;
+    color: rgb(167, 21, 21);
+}
+
+#enlace-footer{
+    text-decoration: none;
+    color: rgb(167, 21, 21);
 }
